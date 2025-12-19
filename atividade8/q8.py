@@ -1,6 +1,5 @@
 class ExportadorDeDados:
     def __init__(self, caminho_arquivo):
-        # Seu código aqui para armazenar o atributo
         self.caminho_arquivo = caminho_arquivo
     
     def exportar(self, dados):
@@ -33,15 +32,11 @@ class ExportadorParaTXT(ExportadorDeDados):
         print(f"✅ Exportado para TXT: {self.caminho_arquivo}")
 
 def gerar_relatorios(exportadores, dados):
-    """
-    Chama o método 'exportar' de cada objeto na lista.
-    Esta função é FLEXÍVEL (Polimorfismo).
-    """
+   
     print("\n--- Iniciando Geração de Relatórios ---")
     
     for exportador in exportadores:
-        # A magia do Polimorfismo: o mesmo comando (exportador.exportar) 
-        # executa o código certo para CSV ou para TXT.
+        
         exportador.exportar(dados)
     
     print("--- Geração Concluída ---")
