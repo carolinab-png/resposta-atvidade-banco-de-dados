@@ -1,6 +1,0 @@
-quando o mesmo nome de método causa comportamentos diferentes em cada classe.
-O código executado é diferente dependendo do objeto que está fazendo a chamada.
-Quando a Pessoa chama, executa-se o método base.
-Quando o Aluno chama, executa-se a versão do Aluno, que estende a versão base.
-
-r- Disparando notificações

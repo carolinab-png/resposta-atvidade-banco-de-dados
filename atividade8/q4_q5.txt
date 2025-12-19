@@ -1,3 +1,0 @@
-Herança é o mecanismo que possibilita a uma classe adquirir atributos e métodos de uma classe existente.
-possibilita a reutilização de código e a organização hierárquica entre classes. 
-f-v-v
